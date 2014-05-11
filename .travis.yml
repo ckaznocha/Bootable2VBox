@@ -1,8 +1,11 @@
 language: bash
 
-before_script:
-    - cabal update
-    - cabal install ShellCheck
+before_install:
+  - sudo apt-get update
+install:
+  - apt-get install cabal-install
+  - cabal update
+  - cabal install ShellCheck
 
 script:
-    - shellcheck *.sh
+  - shellcheck *.sh
