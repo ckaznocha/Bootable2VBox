@@ -7,7 +7,7 @@ This is a small shell script to crate a New VirtualBox VM and Raw Disk from a ex
 I am in no way affiliated with VirtualBox. I just wanted to eliminate something that was annoying to me.
 
 ### Data loss
-Running this script could cause damage to your data or your drives. Use it at your one risk. I take no responsibility and cannot help you if something goes wrong.
+Running this script could cause damage to your data or your drives. Use it at your own risk. I take no responsibility and cannot help you if something goes wrong.
 
 ### Supported OS
 I have only used this script on OS X 10.8.5. It may work on other versions of OS X and Linux, it has not been tested. I make no guarantees.
