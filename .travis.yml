@@ -1,6 +1,7 @@
 language: bash
 
-install:
+before_script:
+    - cabal update
     - cabal install ShellCheck
 
 script:
