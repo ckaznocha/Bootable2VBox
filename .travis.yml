@@ -1,0 +1,7 @@
+language: bash
+
+install:
+    - cabal install ShellCheck
+
+script:
+    - shellcheck *.sh
