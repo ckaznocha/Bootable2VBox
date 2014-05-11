@@ -112,6 +112,8 @@ if hash VBoxManage 2>/dev/null; then
 			* ) echo "Please answer yes or no.";;
 		esac
 	done
+else
+	echo "VBoxManage not found. Exiting."
 fi
 
 exit
