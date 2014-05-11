@@ -1,6 +1,10 @@
 Bootable2VBox
 ================================
 
+[![Build Status](http://img.shields.io/travis/ckaznocha/Bootable2VBox.svg?style=flat)](https://travis-ci.org/ckaznocha/Bootable2VBox)
+[![Release](http://img.shields.io/github/release/ckaznocha/Bootable2VBox.svg?style=flat)](https://github.com/ckaznocha/Bootable2VBox/releases/latest)
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat)](http://ckaznocha.mit-license.org)
+
 This is a small shell script to create a new VirtualBox VM and Raw Disk from an external drive with a bootable OS on it. Because the external drive's UUID changes, you need to recreate the VM every time you plug it in. This script makes that process simpler.
 
 ## WARNINGS
