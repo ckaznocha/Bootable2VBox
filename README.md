@@ -10,7 +10,7 @@ I am in no way affiliated with VirtualBox. I just wanted to eliminate something 
 Running this script could cause damage to your data or your drives. Use it at your own risk. I take no responsibility and cannot help you if something goes wrong.
 
 ### Supported OS
-I have only used this script on OS X 10.8.5. It may work on other versions of OS X and Linux, it has not been tested. I make no guarantees.
+I have only used this script on OS X 10.8. It may work on other versions of OS X and Linux, it has not been tested. I make no guarantees.
 
 I use this to launch a VirtualBox VM from a bootable USB thumb drive with Ubuntu 14.04 installed on it. It may work for other operating systems on different types of bootable media.
 
@@ -25,6 +25,6 @@ Just download the script. You'll need to update the permissions to make it execu
 ## Usage
 Execute the script from the terminal. You must use `sudo` to run it as root. If you are unfamiliar with `sudo` then you probably shouldn't use this script.
 
-On OS X you might get some notifications about your drive not being readable. Just click ignore. What ever you do **DO NOT** initialize the disk.
+On OS X you might get some notifications about your bootable drive not being readable. Just click ignore. What ever you do **DO NOT** initialize the disk.
 
 **Note:** Avoid installing VirtualBox Guest Additions on your bootable OS is you wish to still be able to boot directly from it on a physical computer.
